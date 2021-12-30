@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>about ALT</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  width:100%;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 0 10px white;
+  border-radius: 50px;
+  position: top-fixed;
+  margin: 0 auto;
+
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  box-shadow: 0 0 10px white;
+  border-radius: 50px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  box-shadow: 0 0 10px white;
+  border-radius: 50px;
+}
+
+/*  image */
+.image {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: black;
+   padding: 20px;
+   color:white;
+   margin-top: 20px;
+   box-shadow: 0 0 10px white;
+   border-radius: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  box-shadow: 0 0 10px white;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+</style>
+</head>
+<body style="background-color:black">
+
+<div style="background-color:#0F5072 ;color: White" class="header ">
+  <h2>About ALT</h2>
+</div>
+
+<div class="row">
+  <div style="width:70%" class="leftcolumn">
+    <div style="width:100%" class="card">
+      <h2>ALT-Academy</h2>
+      <h5>ALT-Academy description, Dec 24, 2021</h5>
+      <div class="image" style=" background-color:black; height:150px; width:150px"><img src="Alt logo modified.png" width="100" height=100"> </div>
+      <p style="color#2198D7"><b>The bridge to master new skills</p>
+      <p style="font-family: Georgia, serif">An educational Space charged with new methods, ideas and techniques in the field of Teaching and training. It provides services not only in Languages , but also in Modern technology .</p>
+    </div>
+    <div style="width:100%" class="card">
+      <h2>ALT-Pro</h2>
+      <h5>ALT-Pro description, Dec 24, 2021</h5>
+      <div class="image" style=" background-color:black; height:150px; width:150px"><img src="altlogo2.png" width="100" height=100"> </div>
+      <p>Pass To Action</p>
+      <p style="font-family: Georgia, serif;">This is the applied Extension of the ALT group . Here is the creation of applied content of programming and development. Here, we turn people's imaginations into applications that can be downloaded , or Websites that can be Browsed </p>
+    </div>
+  </div>
+  <div  style="width:30%" class="rightcolumn">
+    <div  style="background-color:#2874A6" class="card">
+      <h2 style="color:white">Founder</h2>
+      <div class="image" style= "background-color:black; height:160px; width:160px"><img src="me.jpg" width=120" height=120"> </div>
+      <p style="color:white;font-size:14px"><b>FAOUZI Abdelaziz </p>
+      <p style="color:white"><b> B.A-degree in English Studies</p>
+      <p style="color:white"><b> Programming Certificate from PYTHON INSTITUTE</p>
+      <p style="color:white"><b>The Founder Of ALT-academy and ALT-Pro</p>
+    </div>
+    <div  style=" height:5%" class="card">
+      <h3 style="color:#0F5072">Social Network Accounts</h3>
+      <div  class="image"><img src="fb.png" width="20" height=20"> <a style="font-size:15px" href="https://m.facebook.com/ALTAzilal/">Visit ALT FACEBOOK</a></div><br>
+      <div class="image"><img src="insta.png" width="20" height=20"> <a style="font-size:15px" href="https://www.instagram.com/alt.acad/">Visit ALT INSTAGRAM</a></div><br>
+      <div class="image"><img src="what.png" width="40" height=40"> <p style="color:black"><b>(+212)615797760</p> </div>
+    </div>
+    <div style="width:100% ;background:black ;color:white" class="card">
+      <h3 >Follow Our Pages <img src="smile.png" width="100" height=100"></h3>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
